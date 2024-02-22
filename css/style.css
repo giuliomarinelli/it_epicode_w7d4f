@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: blue;
+}
+
+#main-menu {
+    margin-top: 15px;
+    background-color: rgb(157, 181, 226);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-link {
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
